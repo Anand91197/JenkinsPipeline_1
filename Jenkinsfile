@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Release_Git') {
             steps {
-                echo 'Finally, we are ready to go on the Production..!!'
+                echo 'Finally, we are ready for the Production..!!'
             }
         }        
     }
