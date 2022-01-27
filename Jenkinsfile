@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Deploy_Git') {
             steps {
-                echo 'We are go to deploy the code'
+                echo 'We are ready to deploy the code'
             }
         }
         stage('Tes_Git') {
